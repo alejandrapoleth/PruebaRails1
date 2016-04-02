@@ -5,7 +5,10 @@ Rails.application.routes.draw do
 
   get 'experiments/page3'
 
-  resources :batmanvssuperman, :votos
+  get 'layouts/_vista_parcial'
+  get 'layouts/bootstrap'
+
+  resources :batmanvssuperman, :votos, :experiments
   get 'pages/batman'
   get 'pages/superman'
   root 'pages#batmanvssuperman'
