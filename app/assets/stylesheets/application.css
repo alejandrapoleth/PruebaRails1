@@ -3,9 +3,6 @@ html, body{
 	margin:0px;
 }
 
-div{
-	margin-bottom: 10px;
-}
 .batman{
 	width:50%;
 	height:80%; 
@@ -13,6 +10,7 @@ div{
     background-image: url(/assets/batman2.jpg);
     background-size: 100% 100%;
 }
+
 .superman{
 	width:50%;
 	height:80%; 

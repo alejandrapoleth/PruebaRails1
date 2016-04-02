@@ -3,7 +3,7 @@ def  index
   @votos = Voto.all
   @votos.all.each do |voto|
     puts voto.attributes
-    puts voto.hero
+    puts voto.heroe
   end
   end
 
@@ -22,7 +22,7 @@ end
 
 private
 def voto_params
-    params.require(:voto).permit(:hero, :email)
+    params.require(:voto).permit(:heroe, :email)
 end
 
 end

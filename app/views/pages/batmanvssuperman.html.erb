@@ -1,6 +1,12 @@
 <h1>Vota: Batman vs Superman</h1>
 
-
+<%= form_for @voto do |f| %>
+ <%= f.label :heroe %>
+  <%= f.text_field :heroe %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit %>
+<% end %>
 
 <a href="http://localhost:3000/pages/batman">
 <div class="batman">
@@ -10,12 +16,6 @@
 <a href="http://localhost:3000/pages/superman">
 <div class="superman">
 </div>
-<%= form_for @voto do |f| %>
- <%= f.label :heroe %>
-  <%= f.text_field :heroe %>
-  <%= f.label :email %>
-  <%= f.text_field :email %>
-  <%= f.submit %>
-<% end %>
+
 </a>
 
