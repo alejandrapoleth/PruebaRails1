@@ -1,4 +1,9 @@
 class PagesController < ApplicationController
-  def batman
-  end
+ 		
+skip_before_filter :verify_authenticity_token
+
+def batmanvssuperman
+	@voto=Voto.new
+end
+
 end

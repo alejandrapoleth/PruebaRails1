@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :batmanvssuperman, :votos
   get 'pages/batman'
   get 'pages/superman'
   root 'pages#batmanvssuperman'

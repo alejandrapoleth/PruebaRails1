@@ -2,6 +2,10 @@ html, body{
 	height:100%;
 	margin:0px;
 }
+
+div{
+	margin-bottom: 10px;
+}
 .batman{
 	width:50%;
 	height:80%; 
